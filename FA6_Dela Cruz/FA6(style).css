@@ -1,0 +1,53 @@
+#pic1{
+	height: 230px;
+	width: 300px;
+	border-style: solid;
+	border-color: #987E54;
+
+}
+
+#pic1:hover{
+	transform: scale(0.9, 0.9);
+}
+
+#pic2{
+	height: 230px;
+	width: 300px;
+	border-style: solid;
+	border-color: #DAC29B;
+}
+
+#pic2:hover{
+	transform: scale(0.9, 0.9);
+}
+
+#link1{
+	border-style: solid;
+	border-color: #987E54;
+	width: 610px;
+	height: 100px;
+	text-align: center;
+	font-size: 50px;
+}
+
+#link2{
+	border-style: solid;
+	border-color: #DAC29B;
+	width: 610px;
+	height: 100px;
+	text-align: center;
+	font-size: 50px;
+}
+
+#link1:target{
+	background-color: #987E54;
+	color: white;
+}
+
+#link2:target{
+	border-style: dotted;
+	border-color: #F9EED3;
+	border-width: 25px;
+	background-color: #DAC29B;
+	color: white;
+}
